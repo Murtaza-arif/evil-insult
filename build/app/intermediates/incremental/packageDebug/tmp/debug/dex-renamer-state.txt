@@ -1,0 +1,4 @@
+#Sat Nov 28 12:15:35 IST 2020
+base.0=/Users/murtazaicecreamwala/Documents/GitHub/evil_insult/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
