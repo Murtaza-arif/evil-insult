@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
       if (response.statusCode == 200) {
         var jsonResponse = convert.jsonDecode(response.body);
         var itemCount = jsonResponse['insult'];
-        insult = itemCount.toString();
+        insult = itemCount.toString().replaceAll("&quot", "");
         print('Number of books about http: $itemCount.');
       } else {
         print('Request failed with status: ${response.statusCode}.');
